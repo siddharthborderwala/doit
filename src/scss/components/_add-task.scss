@@ -1,0 +1,70 @@
+.add-task {
+	
+	&__form {
+		display: flex;
+		justify-content: stretch;
+		align-content: center;
+
+		@media only screen and (max-width: $bp-md) {
+			flex-direction: column;
+			padding: 0 1rem;
+		}
+	}
+
+	&__error {
+		font-family: 'DM Sans';
+		font-style: italic;
+		font-size: 1.4rem;
+		color: $color-primary;
+		margin: 1rem auto;
+		font-weight: 500;
+
+		@media only screen and (max-width: $bp-md) {
+			margin-left: 1rem;
+			font-size: 1.6rem;
+		}
+	}
+
+	&__input {
+		font-size: 1.6rem;
+		font-family: 'DM Sans';
+		color: $color-tertiary;
+		padding-left: 1rem;
+		border: 1px solid $color-primary;
+		border-radius: .8rem;
+		outline: none;
+		background-color: rgba($color-primary-light, .15);
+		caret-color: $color-primary;
+		margin-right: 1rem;
+		flex: 1;
+
+		&::placeholder {
+			color: rgba($color-tertiary, .6);
+		}
+
+		&:focus {
+			background-color: $color-off-white;
+			box-shadow: 0 .2rem 1rem rgba($color-tertiary, .1);
+		}
+
+		@media only screen and (max-width: $bp-md) {
+			margin: 0 0 1rem;
+			padding: 1rem;
+		}
+	}
+
+	&__btn {
+		font-size: 1.6rem;
+		@include trans-all-200ms;
+
+		&:hover,
+		&:focus {
+			box-shadow: 0 .2rem 1rem rgba($color-tertiary, .2);
+			outline: none;
+		}
+
+		@media only screen and (max-width: $bp-md) {
+			padding: 1.2rem;
+		}
+	}
+}

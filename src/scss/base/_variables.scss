@@ -1,0 +1,18 @@
+//COLORS
+$color-primary: #8ac6d1;		//turquoise
+$color-primary-light: #beebe9;	//light-turquoise
+$color-off-white: #fffdf9;		//off-white
+$color-secondary: lighten(#3FB37F, 7%);		//vue-green
+$color-hot-pink: #ff69b4;		//hot-pink
+$color-tertiary: #33475B;		//vue-blue
+
+//BREAKPOINTS
+$bp-md: 31.25em;	//500px
+$bp-sm: 25em;		//400px
+$bp-xs: 20em;		//320px
+
+
+//MIXINS
+@mixin trans-all-200ms {
+	transition: all 200ms ease-in-out;
+}

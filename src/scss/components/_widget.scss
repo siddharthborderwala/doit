@@ -1,0 +1,23 @@
+.widget {
+	color: $color-tertiary;
+	background-color: $color-off-white;
+	border-radius: 2rem;
+	border: none;
+	padding: 2rem;
+	box-shadow: 0 2rem 4rem rgba($color-tertiary, .05);
+	@include trans-all-200ms;
+
+	&:hover {
+		box-shadow: 0 2rem 5rem rgba($color-tertiary, .15);
+	}
+
+	&__wrapper {
+		background-color: lighten($color-primary, 10%);
+		padding: 2.5rem;
+	}
+
+	@media only screen and (max-width: $bp-md) {
+		padding: 1rem;
+		padding-bottom: 2rem;
+	}
+}

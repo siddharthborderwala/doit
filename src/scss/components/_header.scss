@@ -1,0 +1,22 @@
+.header {
+	padding: 2rem;
+	background-color: $color-off-white;
+	box-shadow: 0 .5rem 2rem rgba($color-hot-pink, .2);
+
+	&__title {
+		color: darken($color-primary, 10%);
+		font-size: 4rem;
+
+		&--check {
+			height: 3rem;
+			width: 3rem;
+			fill: darken($color-primary, 10%);
+			margin-right: 1rem;
+		}
+	}
+
+	&__subtitle {
+		color: darken($color-primary-light, 10%);
+		font-size: 2rem;
+	}
+}
