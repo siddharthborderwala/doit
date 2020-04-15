@@ -1,6 +1,6 @@
-# indecision-react
-Webapp made while learning Reactjs. It chooses an option from a list for you!
+# Task Keeper
+Webapp made while learning Reactjs  
 
-# confused?
-If you're confused about what to do out of a list of things, go visit the link and find out  
-[Indecision](https://siddharthborderwala.github.io/indecision-react/)
+# Can't remember?
+Don't worry, this app is here to help you out!  
+[Task Keeper](https://siddharthborderwala.github.io/task-keeper-react-v1/)
