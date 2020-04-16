@@ -57,6 +57,7 @@
 	background-color: transparent;
 	border-radius: 4px;
 	border: 2px solid darken($color-primary, 10%);
+	flex-shrink: 0;
 }
 
 input:checked ~ .custom-check-box {
