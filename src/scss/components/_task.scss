@@ -39,6 +39,10 @@
 		line-height: 0.8;
 
 		@media only screen and (max-width: $bp-sm) {
+			line-height: 1;
+		}
+
+		@media only screen and (max-width: $bp-sm) {
 			font-size: 1.8rem;
 		}
 	}
